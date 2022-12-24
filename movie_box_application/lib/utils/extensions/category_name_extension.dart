@@ -4,10 +4,10 @@ extension CategoryNameException on BaseCategoryName {
   String getCategoryName() {
     switch (this) {
       case BaseCategoryName.movie:
-        return BaseCategoryName.movie.name;
+        return '${BaseCategoryName.movie.name}/';
 
       case BaseCategoryName.search:
-        return BaseCategoryName.search.name;
+        return '${BaseCategoryName.search.name}/';
     }
   }
 }

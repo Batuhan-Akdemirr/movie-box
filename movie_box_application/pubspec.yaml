@@ -18,6 +18,13 @@ dependencies:
 
 
   cupertino_icons: ^1.0.2
+  
+  #Network
+  dio: ^4.0.6
+
+  #Generator
+  json_serializable: ^6.5.4
+  json_annotation: ^4.7.0
 
 dev_dependencies:
   flutter_test:
@@ -26,6 +33,7 @@ dev_dependencies:
   
   flutter_lints: ^2.0.0
   flutter_native_splash: ^2.2.16
+  build_runner: ^2.3.3
 
 flutter_native_splash:
   color: "#000000"
