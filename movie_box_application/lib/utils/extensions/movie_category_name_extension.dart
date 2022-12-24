@@ -8,7 +8,7 @@ extension MovieCategoryNameExtension on MovieCategoryName {
       case MovieCategoryName.popular:
         return MovieCategoryName.popular.name;
       case MovieCategoryName.similar:
-        return MovieCategoryName.similar.name;
+        return '/'+MovieCategoryName.similar.name;
     }
   }
 }
