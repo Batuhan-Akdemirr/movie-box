@@ -1,13 +1,4 @@
-import 'dart:convert';
-import 'dart:io';
-import 'package:dio/dio.dart';
-import 'package:movie_box_application/models/movie_model.dart';
-import 'package:movie_box_application/product/network_manager.dart';
-import 'package:movie_box_application/utils/constants/api_constants.dart';
-import 'package:movie_box_application/utils/extensions/category_name_extension.dart';
-import 'package:movie_box_application/utils/extensions/movie_category_name_extension.dart';
-
-// İlgili filmle benzer filmleri API'den çeken servis sınıfı
+import 'package:movie_box_application/data/network/services/service_library.dart';
 
 class SimilarMoviesService {
   Future<List<MovieModel>> getMovies({id}) async {
@@ -19,12 +10,6 @@ class SimilarMoviesService {
         MovieCategoryName.similar.getCategoryName() +
         APIURL.queryApiKeyValue +
         APIURL.apiKey);
-    // var response = await Dio().get(APIURL.baseApiUrl +
-    //     BaseCategoryName.movie.getCategoryName() +
-    //     id.toString() +
-    //     MovieCategoryName.similar.getCategoryName() +
-    //     APIURL.queryApiKeyValue +
-    //     APIURL.apiKey);
 
     if (response.statusCode == HttpStatus.ok) {
       final data = jsonDecode(jsonEncode(response.data));
