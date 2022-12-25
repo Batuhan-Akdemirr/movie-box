@@ -9,7 +9,7 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
         title: 'Wtech Project',
-        home: OnboardingView(),
+        home: OnBoardingView(),
         debugShowCheckedModeBanner: false,
         onGenerateRoute: NavigatorCustom.onGenerateRoute);
   }

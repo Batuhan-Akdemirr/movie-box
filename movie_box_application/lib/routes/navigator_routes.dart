@@ -1,1 +1,1 @@
-enum NavigateRoutes { onboarding}
+enum NavigateRoutes { onboarding, homepage}
