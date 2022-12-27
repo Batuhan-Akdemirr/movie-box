@@ -10,7 +10,8 @@ class PopularMoviesService implements IMoviesService {
         MovieCategoryName.popular.getCategoryName() +
         APIURL.queryApiKeyValue +
         APIURL.apiKey +
-        APIURL.pageUrl);
+        APIURL.language +
+        InitLocaleLanguage.instance.localeLanguage);
 
     if (response.statusCode == HttpStatus.ok) {
       final data = jsonDecode(jsonEncode(response.data));

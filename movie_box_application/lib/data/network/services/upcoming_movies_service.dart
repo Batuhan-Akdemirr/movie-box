@@ -9,7 +9,9 @@ class UpcomingMoviesService implements IMoviesService {
         BaseCategoryName.movie.getCategoryName() +
         MovieCategoryName.upcoming.getCategoryName() +
         APIURL.queryApiKeyValue +
-        APIURL.apiKey);
+        APIURL.apiKey +
+        APIURL.language +
+        InitLocaleLanguage.instance.localeLanguage);
 
     if (response.statusCode == HttpStatus.ok) {
       final data = jsonDecode(jsonEncode(response.data));

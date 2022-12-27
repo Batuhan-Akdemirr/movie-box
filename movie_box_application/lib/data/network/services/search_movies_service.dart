@@ -6,7 +6,7 @@ class SearchMoviesService implements IMoviesService {
     List<MovieModel> temp = [];
 
     var response = await NetworkManager.instance.dio.get(
-        '${APIURL.baseApiUrl}${BaseCategoryName.search.getCategoryName()}movie${APIURL.queryApiKeyValue}${APIURL.apiKey}${APIURL.searchMovieDetailUrl}${movieName!}');
+        '${APIURL.baseApiUrl}${BaseCategoryName.search.getCategoryName()}movie${APIURL.queryApiKeyValue}${APIURL.apiKey}${APIURL.language}${InitLocaleLanguage.instance.localeLanguage}${APIURL.searchMovieDetailUrl}${movieName!}');
 
     if (response.statusCode == HttpStatus.ok) {
       final data = jsonDecode(jsonEncode(response.data));

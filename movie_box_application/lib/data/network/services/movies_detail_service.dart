@@ -1,5 +1,3 @@
-
-
 import 'package:movie_box_application/data/network/services/service_library.dart';
 
 class MoviesDetailService implements IMoviesService {
@@ -10,9 +8,10 @@ class MoviesDetailService implements IMoviesService {
         BaseCategoryName.movie.getCategoryName() +
         id.toString() +
         APIURL.queryApiKeyValue +
-        APIURL.apiKey);
+        APIURL.apiKey +
+        APIURL.language +
+        InitLocaleLanguage.instance.localeLanguage);
 
-  
     if (response.statusCode == HttpStatus.ok) {
       var data = response.data;
 

@@ -7,3 +7,4 @@ export 'package:movie_box_application/utils/constants/api_constants.dart';
 export 'package:movie_box_application/utils/extensions/category_name_extension.dart';
 export 'package:movie_box_application/models/movie_model.dart';
 export 'package:movie_box_application/utils/extensions/movie_category_name_extension.dart';
+export 'package:movie_box_application/product/init/locale_language_init.dart';
