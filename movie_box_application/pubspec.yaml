@@ -26,13 +26,26 @@ dependencies:
   json_serializable: ^6.5.4
   json_annotation: ^4.7.0
 
+  #cache
+  shared_preferences: ^2.0.15
+
+  #state management
+  provider: ^6.0.5
+
+  #localization
+  easy_localization: ^3.0.1
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
   
   flutter_lints: ^2.0.0
+
+  #splash
   flutter_native_splash: ^2.2.16
+
+  #generator
   build_runner: ^2.3.3
 
 flutter_native_splash:
@@ -49,7 +62,8 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-   - assets/
+   - assets/images/
+   - assets/translations/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
