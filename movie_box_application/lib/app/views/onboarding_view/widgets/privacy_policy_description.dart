@@ -1,7 +1,7 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:movie_box_application/product/provider/onboarding_provider.dart';
-import 'package:movie_box_application/views/onboarding_view/widgets/custom_sheet.dart';
+import 'package:movie_box_application/app/views/onboarding_view/widgets/custom_sheet.dart';
 import 'package:provider/provider.dart';
 
 class PrivacyPolicyRead extends StatelessWidget {

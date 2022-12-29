@@ -1,6 +1,6 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:movie_box_application/data/local/shared_manager.dart';
+import 'package:movie_box_application/core/data/local/shared_manager.dart';
 import 'package:movie_box_application/product/init/localization_init.dart';
 import 'package:movie_box_application/product/provider/onboarding_provider.dart';
 import 'package:provider/provider.dart';

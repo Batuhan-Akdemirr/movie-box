@@ -1,4 +1,4 @@
-import 'package:movie_box_application/data/local/shared_keys.dart';
+import 'package:movie_box_application/core/data/local/shared_keys.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 abstract class ISharedManager {

@@ -1,10 +1,10 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:movie_box_application/data/local/shared_manager.dart';
+import 'package:movie_box_application/core/data/local/shared_manager.dart';
 import 'package:movie_box_application/product/provider/onboarding_provider.dart';
-import 'package:movie_box_application/routes/navigator_routes.dart';
+import 'package:movie_box_application/app/routes/navigator_routes.dart';
 import 'package:provider/provider.dart';
-import '../../../data/local/shared_keys.dart';
+import '../../../../core/data/local/shared_keys.dart';
 
 class ContinueButton extends StatefulWidget {
   const ContinueButton({super.key});

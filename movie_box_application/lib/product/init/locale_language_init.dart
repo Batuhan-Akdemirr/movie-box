@@ -1,5 +1,5 @@
-import 'package:movie_box_application/data/network/services/service_library.dart';
-import 'package:movie_box_application/utils/extensions/locale_device_language_extension.dart';
+import 'package:movie_box_application/core/data/network/services/service_library.dart';
+import 'package:movie_box_application/core/utils/extensions/locale_device_language_extension.dart';
 
 class InitLocaleLanguage {
   InitLocaleLanguage._() {

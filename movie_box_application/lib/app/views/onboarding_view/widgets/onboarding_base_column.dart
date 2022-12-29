@@ -1,6 +1,6 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:movie_box_application/views/onboarding_view/widgets/privacy_policy_description.dart';
+import 'package:movie_box_application/app/views/onboarding_view/widgets/privacy_policy_description.dart';
 
 class OnBoardingBaseColumn extends StatelessWidget {
   const OnBoardingBaseColumn({super.key});

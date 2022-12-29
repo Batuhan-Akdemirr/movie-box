@@ -1,7 +1,7 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:movie_box_application/utils/extensions/context_extension.dart';
-import 'package:movie_box_application/views/onboarding_view/widgets/header_bottom_sheet.dart';
+import 'package:movie_box_application/core/utils/extensions/context_extension.dart';
+import 'package:movie_box_application/app/views/onboarding_view/widgets/header_bottom_sheet.dart';
 
 class CustomSheet extends StatelessWidget {
   const CustomSheet({

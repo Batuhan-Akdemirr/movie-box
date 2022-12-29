@@ -1,13 +1,13 @@
-import 'package:movie_box_application/data/network/services/service_library.dart';
+import 'package:movie_box_application/core/data/network/services/service_library.dart';
 
-class SimilarMoviesService {
-  Future<List<MovieModel>> getMovies({id}) async {
+class UpcomingMoviesService implements IMoviesService {
+  @override
+  Future<List<MovieModel>> getMovies({String? movieName, int? id}) async {
     List<MovieModel> temp = [];
 
     var response = await NetworkManager.instance.dio.get(APIURL.baseApiUrl +
         BaseCategoryName.movie.getCategoryName() +
-        id.toString() +
-        MovieCategoryName.similar.getCategoryName() +
+        MovieCategoryName.upcoming.getCategoryName() +
         APIURL.queryApiKeyValue +
         APIURL.apiKey +
         APIURL.language +

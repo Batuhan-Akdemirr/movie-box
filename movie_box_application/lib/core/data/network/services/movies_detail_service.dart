@@ -1,4 +1,5 @@
-import 'package:movie_box_application/data/network/services/service_library.dart';
+import 'package:movie_box_application/core/data/network/services/service_library.dart';
+
 
 class MoviesDetailService implements IMoviesService {
   final MovieDetailsModel _movieDetail = MovieDetailsModel();

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:movie_box_application/product/image_path.dart';
-import 'package:movie_box_application/views/onboarding_view/widgets/continue_button.dart';
-import 'package:movie_box_application/views/onboarding_view/widgets/onboarding_base_column.dart';
+import 'package:movie_box_application/app/views/onboarding_view/widgets/continue_button.dart';
+import 'package:movie_box_application/app/views/onboarding_view/widgets/onboarding_base_column.dart';
 
 class OnBoardingView extends StatefulWidget {
   const OnBoardingView({super.key});

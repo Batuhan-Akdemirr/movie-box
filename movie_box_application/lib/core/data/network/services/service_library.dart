@@ -1,0 +1,10 @@
+export 'dart:io';
+export 'dart:convert';
+export 'package:movie_box_application/core/data/network/abstractions/movies_service.dart';
+export 'package:movie_box_application/product/network_manager.dart';
+export 'package:movie_box_application/core/utils/constants/api_constants.dart';
+export 'package:movie_box_application/core/utils/extensions/category_name_extension.dart';
+export 'package:movie_box_application/core/utils/extensions/movie_category_name_extension.dart';
+export 'package:movie_box_application/product/init/locale_language_init.dart';
+export  'package:movie_box_application/core/models/movie_detail_model.dart';
+export 'package:movie_box_application/core/models/movie_model.dart';

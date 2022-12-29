@@ -1,4 +1,4 @@
-import 'package:movie_box_application/utils/constants/api_constants.dart';
+import 'package:movie_box_application/core/utils/constants/api_constants.dart';
 
 extension MovieCategoryNameExtension on MovieCategoryName {
   String getCategoryName() {
