@@ -4,5 +4,7 @@
     "continue" :"Continue",
     "terms_privacy": "Terms of the Privacy Agreement",
     "terms_description":"This project was done within the scope of the Financial Information Technologies assignment. Your data is not collected and stored in any way",
-    "ok":"OK"
+    "ok":"OK",
+    "upcoming":"Upcoming Movies",
+    "popular" : "Popular Movies"
 }
