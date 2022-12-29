@@ -10,7 +10,7 @@ class CoreTitle extends StatelessWidget {
   Widget build(BuildContext context) {
     return Padding(
       padding: context.horizontalPaddingNormal * 1.5 +
-          context.onlyTopPaddingMedium +
+          context.onlyTopPaddingNormal * 1.5 +
           context.onlyBottomPaddingNormal,
       child: Text(
         title,
@@ -23,14 +23,3 @@ class CoreTitle extends StatelessWidget {
   }
 }
 
-
-
-/* 
-const EdgeInsets.only(
-        
-   
-        //  top: GeneralPadding.generalVertical, 20   0.03
-        //bottom 20
-        //  bottom: PaddingUpcomingBottom.upcomingBottom 0.015
-          
-          ), */
