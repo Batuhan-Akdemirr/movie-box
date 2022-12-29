@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:movie_box_application/app/views/homepage/widgets/custom_search_delegate.dart';
 
 class HomePageAppBar extends StatelessWidget with PreferredSizeWidget {
   const HomePageAppBar({
@@ -21,7 +22,7 @@ class HomePageAppBar extends StatelessWidget with PreferredSizeWidget {
       actions: [
         IconButton(
             onPressed: () {
-              debugPrint('Go to search page');
+              showSearch(context: context, delegate: CustomSearchDelegate());
             },
             icon: const Icon(Icons.search))
       ],
