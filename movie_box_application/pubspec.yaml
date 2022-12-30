@@ -36,9 +36,13 @@ dependencies:
 
   #localization
   easy_localization: ^3.0.1
-  cached_network_image: ^3.2.3
+
+  #flutter.dev
+  palette_generator: ^0.3.3+2
 
   
+  cached_network_image: ^3.2.3
+
 
 dev_dependencies:
   flutter_test:
@@ -52,6 +56,13 @@ dev_dependencies:
 
   #generator
   build_runner: ^2.3.3
+
+  #app launcher
+  flutter_launcher_icons: ^0.11.0
+flutter_icons:
+  android: true
+  ios: false
+  image_path: "assets/images/launcher.png"
 
 flutter_native_splash:
   color: "#000000"
