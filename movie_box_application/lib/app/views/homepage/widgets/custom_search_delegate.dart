@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
-import 'package:movie_box_application/app/views/search_view/search_view.dart';
+import 'package:movie_box_application/app/views/search_view/search.view.dart';
+
 
 class CustomSearchDelegate extends SearchDelegate {
   var box = Hive.box('movies');
@@ -32,7 +33,7 @@ class CustomSearchDelegate extends SearchDelegate {
       _saveMovies(query);
     }
 
-    return const SearchView();
+    return SearchPage(movieName: query);
   }
 
   @override
