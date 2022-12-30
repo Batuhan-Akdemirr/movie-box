@@ -4,4 +4,6 @@ class ColorConstants {
   static Color onboardingBackgroundColor = Colors.grey.shade800;
   static Color starColor = Colors.yellow;
   static Color searchCardColor = Colors.black.withOpacity(0.2);
+  static Color sliverAppBarColor = Colors.transparent;
+  static Color noBavkgroundImageColor = Colors.grey;
 }
