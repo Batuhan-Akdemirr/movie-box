@@ -6,5 +6,9 @@
     "terms_description":"Bu proje Finansal Bilgi ve Teknolojileri dersi kapsamında yapılmıştır  Verileriniz hiçbir şekilde toplanmamakta ve kullanılmamaktadır",
     "ok":"Tamam",
     "upcoming":"Vizyona Girecek Filmler",
-    "popular" : "Popüler Filmler"
+    "popular" : "Popüler Filmler",
+    "over_view":"Genel Bakış",
+    "story_line":"Hikaye",
+    "similar_movies":"Benzer Filmler",
+    "watch_movies" : "Film İzle"
 }

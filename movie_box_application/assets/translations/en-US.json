@@ -6,5 +6,9 @@
     "terms_description":"This project was done within the scope of the Financial Information Technologies assignment. Your data is not collected and stored in any way",
     "ok":"OK",
     "upcoming":"Upcoming Movies",
-    "popular" : "Popular Movies"
+    "popular" : "Popular Movies",
+    "over_view":"Overview",
+    "story_line":"Storyline",
+    "similar_movies":"Similar Movies",
+    "watch_movies" : "Watch Movies"
 }
