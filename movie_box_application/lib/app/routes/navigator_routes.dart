@@ -1,1 +1,1 @@
-enum NavigateRoutes { onboarding, homepage}
+enum NavigateRoutes { onboarding, homepage, moviedetails}
