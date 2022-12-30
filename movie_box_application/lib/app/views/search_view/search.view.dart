@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:movie_box_application/app/routes/navigator_routes.dart';
 import 'package:movie_box_application/app/views/search_view/widgets/search_card.dart';
 import 'package:movie_box_application/core/data/network/services/search_movies_service.dart';
 import 'package:movie_box_application/core/data/network/services/service_library.dart';
@@ -46,6 +47,11 @@ class _SearchPageState extends State<SearchPage> {
                   return Container(
                       margin: context.horizontalPaddingLow * 0.25,
                       child: InkWell(
+                        onTap: () {
+                          Navigator.of(context).pushNamed(
+                              NavigateRoutes.moviedetails.name,
+                              arguments: currentMovie);
+                        },
                         child: SearchCard(
                             rating: currentMovie.voteAverage!.toDouble(),
                             posterPath: currentMovie.backdropPath,
