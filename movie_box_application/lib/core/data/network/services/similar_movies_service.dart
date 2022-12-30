@@ -1,7 +1,7 @@
 import 'package:movie_box_application/core/data/network/services/service_library.dart';
 
 class SimilarMoviesService {
-  Future<List<MovieModel>> getMovies({id}) async {
+  static Future<List<MovieModel>> getMovies({id}) async {
     List<MovieModel> temp = [];
 
     var response = await NetworkManager.instance.dio.get(APIURL.baseApiUrl +
